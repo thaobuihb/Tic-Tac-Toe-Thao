@@ -8,7 +8,7 @@ build interactive tic-tac-toe game to React
 ## Passing data through props
 > Tạo 1 function Square mới để return một button có class="square" để tạo 1 ô vuông có value = 1
 > 
-> cập nhật thành phần Board để hiển thị thành phần Square đó bằng cú pháp JSX (thay các button bằng Square ở trên, lưu ý luôn phải là tag đóng <Square/>.
+> cập nhật thành phần Board để hiển thị thành phần Square đó bằng cú pháp JSX (thay các button bằng Square ở trên, lưu ý luôn phải là tag đóng       <Square>.)
 > 
 > Sử dụng props để chuyển giá trị từ bố mẹ là board vào ô square thay giá trị là 1 mặc định {value}, **nhớ dấu {} này nhé** vì mình cần giá trị của thành phần chứ không phải và từ value
 >
@@ -29,3 +29,14 @@ build interactive tic-tac-toe game to React
 > > > Edit the Board component so that it declares a state variable named squares that defaults to an array of 9 nulls corresponding to the 9 squares
 > > > chỉnh sửa thành phần Square để nhận value prop từ thành phần Board
 > > > chuyển một hàm từ thành phần Board sang thành phần Square và yêu cầu Square gọi hàm đó khi nhấp vào một hình vuông
+>
+> Talking turns X - O 
+> > Đặt X là nước đi đầu tiên
+>> cập nhật hàm handClick của Board để lật giá trị của xIsNext
+
+## Declaring a winner 
+> CalculateWinner function
+## Bonus
+>> ...history spread syntax
+>> để chuyển đổi một mảng thành một mảng khác, bạn có thể sử dụng phương thức bản đồ mảng
+>> đối với danh sách động phải cần key 
